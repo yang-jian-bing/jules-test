@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
+
+/* General Body Styles */
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #0d47a1; /* A deep, professional blue */
+    font-size: 1.8rem;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0d47a1;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1565c0; /* A slightly lighter blue for hover */
+}
+
+/* Hero Section */
+.hero {
+    background: #0d47a1; /* Matching deep blue */
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin: 0 0 10px 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #0d47a1;
+}
+
+.service-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 220px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.service-item span {
+    font-size: 2.5rem;
+}
+
+.service-item h3 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.service-item .icon {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0d47a1;
+    background-color: #e3f2fd;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #263238; /* A dark, neutral color */
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #80cbc4;
+    text-decoration: none;
+}
+
+/* Instrument Images Section */
+.instrument-images {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.instrument-images h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #0d47a1;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 45%; /* Adjust width for side-by-side display */
+}
