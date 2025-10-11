@@ -285,48 +285,17 @@ footer a {
         font-size: 0.8rem;
     }
     
-    /* Navigation mobile adjustments */
+    /* 在移动端隐藏整个导航栏 */
+    nav {
+        display: none;
+    }
+    
     .mobile-menu-toggle {
-        display: flex;
+        display: none;
     }
     
     .nav-menu {
         display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #fff;
-        border-top: 1px solid #ddd;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        z-index: 1000;
-    }
-    
-    .nav-menu.active {
-        display: flex;
-    }
-    
-    nav ul {
-        flex-direction: column;
-        gap: 0;
-        text-align: center;
-        padding: 10px 0;
-    }
-    
-    nav ul li {
-        margin-left: 0;
-        padding: 10px 0;
-        border-bottom: 1px solid #f0f0f0;
-    }
-    
-    nav ul li:last-child {
-        border-bottom: none;
-    }
-    
-    nav ul li a {
-        display: block;
-        padding: 10px 20px;
     }
     
     /* Hero section mobile adjustments */
